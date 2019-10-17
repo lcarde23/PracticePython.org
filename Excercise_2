@@ -1,0 +1,13 @@
+# ask user for a number and then check if its odd or even yo, also if its divisible by cuatro print a diff msg.
+
+number = int(input('Please enter a number. '))
+
+even = 'This number is even yo'
+odd = 'This number is odd yo'
+
+if number % 2 ==0:
+    print(even)
+    if number % 4 ==0:
+        print('Ah divisible by 4 I see.')
+else:
+    print(odd)

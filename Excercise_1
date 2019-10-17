@@ -1,8 +1,8 @@
 # Excercise 1     Get user input and print a personalized message and repeat it x times.
-name = input('please input your name.')
-age = input('Please input your age')
-repetitions = input("Please enter a number.")
+name = input('Please input your name. ')
+age = input('Please input your age. ')
+repetitions = input("Please enter a number. ")
 
-cien_anos = 100 - int(age)
+cien_anos = (2019 - int(age)) + 100
 
 print(int(repetitions) * (name.title() + ', you will be 100 years old in ' + str(cien_anos) + ' years!\n'))

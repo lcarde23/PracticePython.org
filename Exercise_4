@@ -1,0 +1,11 @@
+#Exercise 4 have the user input a number and print our the divisors of that number
+
+question = int(input("Please enter a number. "))
+x = range(2,100) # listrange = list(range(1, num+1)) this way the list is only 1 number larger than the number inputted
+divisorList = []
+
+for i in x:
+    if question % i ==0:
+        divisorList.append(i)
+
+print(divisorList)

@@ -1,0 +1,10 @@
+#Excercise 3    Print items that are less than 5 or add them to a list and print the list.
+
+list_1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+less_5 = []
+
+for x in list_1:
+    if x < 5:
+        less_5.append(list_1[x])
+
+print(less_5)

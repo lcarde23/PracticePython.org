@@ -1,0 +1,11 @@
+#Exercise_6
+
+String = input('Please enter a word. ')
+length = len(String)                    # not needed as [::-1] reverses the string 
+StringRev = String[length::-1]          # StringRev = Sting[::-1] reverses String and saves the reverse into StringRev
+
+if String == StringRev:
+    print('Bingo this is a palindrome!')
+else:
+    print('Woomp woomp this is not a palindrome!')
+

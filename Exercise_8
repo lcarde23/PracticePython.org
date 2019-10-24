@@ -1,0 +1,4 @@
+#Exercise_8 Use a list comprehension to print a list full of squares
+
+sqr = [x**2 for x in range(1,11)]
+print(sqr)
